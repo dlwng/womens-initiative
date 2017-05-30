@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker|Roboto');
+@import url('https://fonts.googleapis.com/css?family=Barrio');
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+@font-face {
+	font-family: Lovelo;
+	src: url(Lovelo.otf);
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Quicksand', sans-serif;
+	text-align: center;
+    background-color: #9CAD9C;
+    height: 100vh;
+}
+
+#logo {
+	width: 10%;
+	display: block;
+	margin: 0 auto;
+}
+
+#container {
+	border: 1px solid white;
+	margin: 0 auto;
+	margin-top: 50px;
+	padding: 40px;
+	margin-left: 20%;
+	margin-right: 20%;
+	background-color: white;
+}
+
+#time {
+	text-align: center;
+	margin: 0;
+}
+
+.bar {
+	width: 60%;
+	height: 10px;
+	margin: 0 auto;
+	background-color: black;
+}
+
+#heading {
+	font-family: Lovelo;
+	text-align: center;
+	font-size: 80px;
+	margin: 0;
+	padding: 10px;
+}
+
+#footer {
+	text-align: center;
+}
