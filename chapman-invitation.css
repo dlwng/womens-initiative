@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+body{
+	display: block;
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	
+	/*background: repeating-linear-gradient(
+  		45deg,
+  		green,
+ 		green 2px,
+  		#F9EDDF 2px,
+  		#F9EDDF 40px);*/
+
+}
+
+.logo{
+	margin-left: 75px;
+	margin-top: 30px;
+	padding: 5px;
+	text-align: center;
+	background-color: white;
+	width: 200px;
+	/*border: solid green 1px;*/
+}
+
+.logo img{
+	margin: 0 auto;
+	width: 150px;
+}
+
+.content{
+	width: 90%;
+	border: solid green 1px;
+	margin: 20px auto;
+	background-color: white;
+}
+
+.title{
+	padding: 20px 0;
+	text-align: left;
+	width: 48%;
+	display: inline-block;
+	margin: 0 auto;
+}
+
+.word{
+	display: inline-block;
+	mix-blend-mode: darken;
+	opacity: .8;
+	font-size: 100px;
+	padding: 15px;
+}
+
+.art{
+	font-family: 'Roboto', sans-serif;
+	/*background-color: #72c5cd;
+	transform: rotate(-15deg);*/
+
+}
+
+.therapy{
+	font-family: 'Roboto', sans-serif;
+	/*background-color: #3cb187;*/
+}
+
+.as{
+	font-family: 'Permanent Marker', cursive;
+	background-color: green;
+	border-radius: 100%;
+	color: white;
+	font-size: 75px;
+
+}
+
+.text{
+	font-family: 'Open Sans', sans-serif;
+	width: 48%;
+	display: inline-block;
+	vertical-align: top;
+	padding-top: 20px;
+}
+
+.sentence{
+	width: 80%;
+	padding-top: 20px;
+	margin: 0 auto
+}
+
+.shapes{
+	width: 25%;
+	margin: 0 auto;
+}
+
+.shape{
+	width: 10px;
+	height: 10px;
+	display: inline-block;
+	margin-left: 10px;
+	margin: right: 10px;
+}
+
+.square{
+	background-color: blue;
+}
+
+.circle{
+	border-radius: 100%;
+	background-color: red;
+}
