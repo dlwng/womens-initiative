@@ -1,25 +1,47 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald');
 @import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond');
 
 body {
-	margin-left: 20%;
-	margin-right: 20%;
+	margin-top: 0;
 	padding: 0;
 	font-family: 'Quicksand', sans-serif;
+	background-image: url(palms.jpg);
+	background-size: cover;
 }
 
 h1 {
-	font-family: 'Oswald', sans-serif;
+	margin: 0;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 80px;
+	line-height: 80px;
 }
 
 h2 {
+	margin: 0;
+}
+#container {
+	margin-left: 30%;
+	margin-right: 15%;
+	padding-right: 50px;
+	padding-left: 50px;
+	background-color: white;
+	opacity: 0.8;
+}
 
+.logo {
+	position: fixed;
+	left: 15px;
+	top: 15px; 
+	background-color: white;
+	background-attachment: fixed;
+	opacity: 1;
 }
 
 #heading {
-	border-left: 10px solid green;
-	padding-left: 10px;
-	border-bottom: 10px solid green;
+	border-left: 30px solid green;
+	padding-left: 30px;
+	padding: 40px;
 }
 
 .logo {
@@ -31,12 +53,25 @@ h2 {
 }
 
 #weekly {
-	border-right: 10px solid green;
-	border-bottom: 10px solid green;
+	border-right: 30px solid green;
+	border-top: 30px solid green;
+	border-bottom: 30px solid green;
+	padding: 40px;
 }
 
 #may {
-	border-left: 10px solid green;
-	border-bottom: 10px solid green;
+	border-left: 30px solid green;
+	padding: 40px;
+}
+
+.date {
+	font-style: italic;
+}
+
+#footer {
+	background-color: #E2E2E2;
+	width: 100%;
+	margin: 0;
+
 }
 
