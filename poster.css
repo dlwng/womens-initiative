@@ -55,12 +55,35 @@ h2 {
 	border-top: 30px solid #C4D0C3;
 	border-bottom: 30px solid #C4D0C3;
 	padding: 40px;
+	position: relative;
+}
+
+.header{
+	position: absolute;
+	right: -85px;
+	top: 50px;
+	transform: rotate(90deg);
+	font-size: 24px;
+	opacity: .8;
+	font-family: 'Roboto', sans-serif;
 }
 
 #may {
 	border-left: 30px solid green;
 	padding: 40px;
+	position: relative;
 }
+
+.header-2{
+	position: absolute;
+	left: -65px;
+	top: 50px;
+	transform: rotate(-90deg);
+	font-size: 24px;
+	opacity: .8;
+	font-family: 'Roboto', sans-serif;
+}
+
 
 .date {
 	font-style: italic;
