@@ -1,18 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald');
 @import url('https://fonts.googleapis.com/css?family=Quicksand');
-@import url('https://fonts.googleapis.com/css?family=EB+Garamond');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
 body {
+	margin: 0;
 	margin-top: 0;
 	padding: 0;
 	font-family: 'Quicksand', sans-serif;
 	background-image: url(palms.jpg);
 	background-size: cover;
+	background-attachment: fixed;
 }
 
 h1 {
 	margin: 0;
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size: 80px;
 	line-height: 80px;
 }
@@ -20,6 +22,7 @@ h1 {
 h2 {
 	margin: 0;
 }
+
 #container {
 	margin-left: 30%;
 	margin-right: 15%;
@@ -33,9 +36,8 @@ h2 {
 	position: fixed;
 	left: 15px;
 	top: 15px; 
-	background-color: white;
+	/*background-color: white;*/
 	background-attachment: fixed;
-	opacity: 1;
 }
 
 #heading {
@@ -48,14 +50,10 @@ h2 {
 	display: inline-block;
 }
 
-#description {
-	display: inline-block;
-}
-
 #weekly {
 	border-right: 30px solid green;
-	border-top: 30px solid green;
-	border-bottom: 30px solid green;
+	border-top: 30px solid #C4D0C3;
+	border-bottom: 30px solid #C4D0C3;
 	padding: 40px;
 }
 
@@ -69,9 +67,69 @@ h2 {
 }
 
 #footer {
-	background-color: #E2E2E2;
+	background-color: #C4D0C3;
 	width: 100%;
 	margin: 0;
 
 }
 
+#title {
+}
+
+#description {
+	display: inline-block;
+	width: 31%;
+}
+
+.text {
+	width: 80%;
+	margin: 0 auto;
+}
+
+#contact {
+	margin: 0;
+	display: inline-block;
+	width: 31%;
+}
+
+#address {
+	margin: 0;
+	display: inline-block;
+	width: 31%;
+}
+
+@media screen and (max-width: 1055px) {
+	#container {
+		margin-left: 25%;
+		margin-right: 10%;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	#container {
+		margin-left: 25%;
+		margin-right: 0%;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	#container {
+		margin-left: 0%;
+		margin-right: 0%;
+	}
+	.logo {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 560px) {
+	h1 {
+		font-size: 50px;
+	}
+	h2 {
+		font-size: 20px;
+	}
+	p {
+		font-size: 15px;
+	}
+}

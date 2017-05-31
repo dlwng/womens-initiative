@@ -17,6 +17,10 @@ body{
 	width: 20%;
 	display: block;
 	margin: 0 auto;
+	bottom: 20px;
+	left: 0;
+	right: 0;
+	position: absolute;
 }
 
 #container {
@@ -48,7 +52,12 @@ body{
 	margin: 0;
 }
 
+#address {
+}
+
 #register {
+	position: absolute;
+	bottom: 100px;
 }
 
 #footer {
@@ -59,4 +68,40 @@ body{
 	width: 50%;
 	right: 0;
 	left: 0;
+}
+
+@media screen and (max-width: 1200px) {
+	#container {
+		width: 40%;
+	}
+}
+
+@media screen and (max-width: 875px) {
+	#container {
+		width: 50%;
+	}
+	#heading {
+		font-size: 50px;
+	}
+}
+
+@media screen and (max-width: 607px) {
+	#register {
+		bottom: 60px;
+	}
+}
+
+@media screen and (max-width: 455px) {
+	#container {
+		font-size: 15px;
+	}
+	#heading {
+		font-size: 40px;
+	}
+}
+
+@media screen and (max-width: 370px) {
+	#footer {
+		font-size: 12px;
+	}
 }
