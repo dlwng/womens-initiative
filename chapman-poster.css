@@ -1,1 +1,99 @@
-chapman-poster.css
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+body {
+	margin-left: 30%;
+	margin-right: 15%;
+	padding: 0;
+	font-family: 'Quicksand', sans-serif;
+	margin-top: 0;
+	background-image: url(chairs.jpg);
+}
+
+h1 {
+	font-family: 'Oswald', sans-serif;
+}
+
+h2 {
+	margin: 0;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+p{
+	padding-left: 10px;
+}
+
+.logo{
+	position: fixed;
+	left: 0;
+	position: top;
+	padding-top: 20px;
+	padding-left: 30px;
+	background-color: white;
+	opacity: .8;
+}
+
+#heading {
+	border-left: 15px solid green;
+	padding-left: 10px;
+	border-bottom: 15px solid green;
+	background-color: white;
+	opacity: .8;
+
+}
+
+#heading:before{
+    border: 1px solid orange;
+    content: '';
+    position: absolute;
+}
+
+.logo {
+	display: inline-block;
+}
+
+#description {
+	display: inline-block;
+	background-color: white;
+
+}
+
+#weekly {
+	border-right: 10px solid green;
+	border-bottom: 10px solid green;
+	vertical-align: bottom;
+	position: relative;
+	background-color: white;
+	opacity: .8;
+}
+
+.header{
+	position: absolute;
+	right: -75px;
+	top: 50px;
+	transform: rotate(90deg);
+	font-size: 24px;
+	background-color: white;
+	opacity: .8;
+}
+
+
+#may {
+	border-left: 10px solid green;
+	vertical-align: bottom;
+	position: relative;
+	background-color: white;
+	opacity: .8;
+}
+
+.header-2{
+	position: absolute;
+	left: -65px;
+	top: 50px;
+	transform: rotate(-90deg);
+	font-size: 24px;
+	background-color: white;
+	opacity: .8;
+
+}
